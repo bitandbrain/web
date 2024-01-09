@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Bits and Brains</title>
+    <link rel="icon" href="jouwfavico.ico">
+    <style>
+        /* Basale stijl */
+        @font-face {
+            font-family: 'PixelOperator';
+            src: url('PixelOperator.ttf') format('truetype'); /* Path to the regular font file */
+            font-weight: normal;
+            /* Add more src lines for different variations of the font if available */
+        }
+
+        body {
+            font-family: 'PixelOperator', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+            background-image: url('images/Background2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex; /* Use flexbox for layout */
+            flex-direction: column; /* Align items vertically */
+            min-height: 100vh; /* Set minimum height to viewport height */
+        }
+
+        header {
+            margin-top: 20px; /* Adjust top margin as needed */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header img {
+            width: 200px; /* Adjust image width */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        main {
+            padding: 20px;
+            flex-grow: 1; /* Allows main content to grow and take available space */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center; /* Center text */
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            flex-shrink: 0; /* Prevent footer from shrinking */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpeg" alt="Logo"> <!-- Adjust image path and alt text -->
+    </header>
+
+    <main>
+        <h1>Bits &amp; Brains</h1>
+        
+        <section>
+            <h2>Section 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum consectetur dolor, ac rhoncus metus efficitur at.</p>
+        </section>
+
+        <section>
+            <h2>Section 2</h2>
+            <p>Curabitur facilisis aliquet ex, a posuere est consectetur a. Sed bibendum lorem et massa ultrices convallis.</p>
+        </section>
+
+        <section>
+            <h2>Section 3</h2>
+            <p>Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam vel ligula nec eros posuere blandit.</p>
+        </section>
+        
+        <!-- Voeg meer secties toe zoals bovenstaand voor meer inhoud -->
+
+    </main>
+
+    <footer>
+        <p>Gemaakt door <a href="#">Matthew en Ata</a></p>
+    </footer>
+
+    <script>
+        // Hier kun je JavaScript-code toevoegen als dat nodig is voor interactieve elementen
+    </script>
+</body>
+</html>
